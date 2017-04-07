@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/akai-org/polibuda-memory#readme",
   "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
     "browser-sync": "^2.18.8",
     "gulp": "^3.9.1"
   }
