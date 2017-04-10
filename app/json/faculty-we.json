@@ -1,0 +1,18 @@
+{
+    "memorySet": {
+        "type": "faculty",
+        "name": "Wydział Elektryczny",
+        "shortName": "WE",
+        "image": "images/faculty/we/we-logo.png",
+        "people": [
+            {
+                "name":"John Kowalsky",
+                "position": "Dean of FoS",
+                "titleBefore":"prof. dr hab. inż.",
+                "titleAfter":", prof. nadzw. PP",
+                "image":"images/faculty/FoS/JohnKowalsky.png",
+                "pageLink":"http://fos.put.poznan.pl/people/John-Kowalsky"
+            }
+        ]
+    }
+}

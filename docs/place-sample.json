@@ -1,0 +1,21 @@
+{
+    "memorySet": {
+        "type": "place",
+        "name": "Kompleks Centrum Wykładowego",
+        "shortName": "CW",
+        "image": "images/places/cw/cw.png",
+        "pageLink":"http://put.poznan.pl/CentrumWykladowe",
+        "places": [
+            {
+                "name":"Centrum Wykładowe",
+                "image":"images/places/cw/cw.png",
+                "pageLink":"http://put.poznan.pl/CentrumWykladowe"
+            },
+            {
+                "name":"Sala CW8",
+                "image":"images/places/cw/cw8.png",
+                "pageLink":"http://put.poznan.pl/CentrumWykladoweSala8"
+            }
+        ]
+    }
+}
