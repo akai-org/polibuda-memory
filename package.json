@@ -2,7 +2,7 @@
   "name": "polibuda-memory",
   "version": "1.0.0",
   "description": "How well do you know your faculty?",
-  "main": "index.js",
+  "main": "public/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,6 +19,11 @@
   "devDependencies": {
     "babel-preset-es2015": "^6.24.1",
     "browser-sync": "^2.18.8",
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-file-include": "^1.1.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.5.1"
   }
 }
