@@ -1,0 +1,42 @@
+{
+    "memorySet": {
+        "type": "faculty",
+        "name": "Wydział Budownictwa i Inżynierii Środowiska",
+        "shortName": "WBiIŚ",
+        "image": "images/faculty/wbiis.jpg",
+        "people": [
+            {
+                "name":"Tomasz Mróz",
+                "position": "Dziekan Wydziału Budownictwa i Inżynierii Środowiska",
+                "titleBefore":"Prof. dr hab. inż.",
+                "titleAfter":"",
+                "image":"images/faculty/wbiis/TomaszMroz.png",
+                "pageLink":"http://www.bis.put.poznan.pl/evPages/show/id/43"
+            },
+            {
+                "name":"Marlena Kucz",
+                "position": "Prodziekan ds. studiów stacjonarnych",
+                "titleBefore":"Dr inż.",
+                "titleAfter":"",
+                "image":"images/faculty/wbiis/MarlenaKucz.png",
+                "pageLink":"http://www.bis.put.poznan.pl/evPages/show/id/43"
+            },
+            {
+                "name":"Wojciech Siekierski",
+                "position": "Prodziekan ds studiów niestacjonarnych i stypendiów" ,
+                "titleBefore":"Dr hab. inż.",
+                "titleAfter":"",
+                "image":"images/faculty/wbiis/WojciechSiekierski.png",
+                "pageLink":"http://www.bis.put.poznan.pl/evPages/show/id/43"
+            },
+            {
+                "name":"Piotr Oleśkowicz-Popiel",
+                "position": "Prodziekan ds nauki i współpracy z gospodarką",
+                "titleBefore":"Dr hab. inż.",
+                "titleAfter":", prof. nadzw. PP",
+                "image":"images/faculty/wbiis/PiotrOleskowicz-Popiel.png",
+                "pageLink":"http://www.bis.put.poznan.pl/evPages/show/id/43"
+            }
+        ]
+    }
+}
