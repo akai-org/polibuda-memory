@@ -32,7 +32,7 @@ gulp.task('sass', function() {
 });
 
 gulp.task('babel', function() {
-  return gulp.src("app/javascripts/*.js")
+  return gulp.src("app/javascripts/**/*.js")
     .pipe(sourcemaps.init())
     .pipe(babel({
       presets: ['es2015']
