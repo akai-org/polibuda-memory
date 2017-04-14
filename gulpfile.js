@@ -10,7 +10,8 @@ var fileinclude = require('gulp-file-include');
 gulp.task('serve', ['html', 'images', 'sass', 'babel', 'json'], function() {
 
   browserSync.init({
-    server: "./public"
+    server: "./public",
+    browser: "chrome"
   });
 
     gulp.watch("app/stylesheets/*.scss", ['sass']);
