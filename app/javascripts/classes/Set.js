@@ -2,7 +2,12 @@ var app = app || {};
 
 app.Set = class {
 
-    //this.cards = [];
+
+    //class fields
+    //name = '';
+    //image = '';
+    //shortName = '';
+    //cards = [];
 
     constructor(file) {
         //Load set from specified file
@@ -29,7 +34,7 @@ app.Set = class {
                         }
                     });
                 } else {
-                    console.log("Oops, we haven't got JSON!");
+                    console.log('Oops, we haven\'t got JSON! File: ' + file);
                 }
             });
     }
@@ -41,12 +46,12 @@ app.Set = class {
         this.name = set.name;
         this.image = set.image;
         this.shortName = set.shortName;
-        this.people = [];
+        this.cards = [];
         //Create cards from people
         set.people.forEach( function (person) {
             let card = new app.Card();
             card.loadFromPerson(person);
-            self.people.push(card);
+            self.cards.push(card);
         });
     }
 

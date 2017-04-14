@@ -4,10 +4,10 @@ app.states = ['welcome', 'set-select', 'game', 'score'];
 
 app.State = class {
     constructor() {
-        let $this = this;
+        let self = this;
         window.addEventListener('hashchange', function(){
             //TODO: Add protection for wrong hashes?
-            $this.set(window.location.hash);
+            self.set(window.location.hash);
         });
     }
 
@@ -29,6 +29,17 @@ app.State = class {
                 break;
             case 'game':
                 console.log('Loaded game screen');
+                //Display cards
+                if (!app.cardsDisplayed) {
+                    let cardsContainer = document.getElementById('cards');
+                    for(let set in app.activeSets) {
+                        console.log('set: '+set);
+                        app.sets[set].cards.forEach(function (card) {
+                            cardsContainer.innerHTML += card.getDisplay();
+                        })
+                    }
+                    app.cardsDisplayed = true;
+                }
                 break;
             case 'score':
                 console.log('Loaded score screen');
