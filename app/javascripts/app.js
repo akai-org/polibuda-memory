@@ -19,4 +19,8 @@ document.addEventListener("DOMContentLoaded", function() {
         app.activeSets.push(set);
     });
 
+    //New set select screen class
+    app.setselectscreen = new app.SetSelectScreen();
+
+
 });

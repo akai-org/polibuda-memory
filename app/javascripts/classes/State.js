@@ -1,5 +1,6 @@
 var app = app || {};
 
+//Screens in the app
 app.states = ['welcome', 'set-select', 'game', 'score'];
 
 app.State = class {
@@ -25,7 +26,7 @@ app.State = class {
                 console.log('Loaded welcome screen');
                 break;
             case 'set-select':
-                console.log('Loaded set-select screen');
+                app.setselectscreen.load();
                 break;
             case 'game':
                 console.log('Loaded game screen');

@@ -55,6 +55,16 @@ app.Set = class {
         });
     }
 
+    getDisplay() {
+        let self = this;
+        let html = '';
+        html += '<div class="set" data-name="' + self.name + '"'+ 'data-shortName="' + self.shortName + '"' +'>' +
+            '<p>Set:' + self.name + '</p>' +
+            '<input class="setCheckbox" type="checkbox">'+
+            '</div>';
+        return html;
+    }
+
     loadPlace(json) {
         //TODO: fill this in
         console.log('Loaded place');
