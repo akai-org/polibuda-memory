@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
 
-import './index.sccs';
+import './style.scss';
 
 import Header from '../../components/Header';
 
@@ -8,12 +8,14 @@ class WelcomePage extends Component{
 
     render(){
         return(
-            <Header/>
+            <div className="WelcomePage">
+                <Header/>
+                <h1>test</h1>
+            </div>
 
         );
     }
 }
 
 export default WelcomePage;
-//TODO 
-//react router
+
